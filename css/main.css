@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url(./Lato-Italic.ttf);
+}
+
+.main {
+    background-color: #1a1d20;
+
+}
+
+#barra-navegacion {
+    justify-content:space-evenly ;
+    width: 100%;
+}
+
+#imagenhome {
+    border-radius: 3rem;
+    max-width: 100%;
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: rgb(43,48,53);
+    
+}
+
+.fondo--body {
+    font-family: Lato;
+color: white;
+font-size: medium;
+  background-color: #1a1d20;
+  /* le cambie el fondo y colores al sitio porque me di cuenta que el fondo solido quedaba mejor visualmente y mas armónico para la vista, en vez del naranja que utilice anteriormente */
+  
+}
+
+.footerlinea1{
+margin: 2rem;
+padding: 0.5 rem;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+border-style: double;
+background-color: rgb(43,48,53);
+  border-radius: 3rem;
+}
+
+.footer1{
+    align-content:space-between;
+    justify-content:space-evenly ;
+    margin: 2rem;
+padding: 0.5 rem;
+
+
+}
+
+.logoredes{
+    height: 7vh;
+    width: 7vh;
+}
+
+.logocontacto {
+        height: 4vh;
+        width: 4vh;
+}
+
+.logofooter {
+    height: 15vh;
+    width: 40vh;
+}
+
+.linkredes{
+    margin: 2rem;
+    padding: 0.5 rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#footer1-redes{
+
+    align-content:space-between;
+    justify-content:space-evenly ;
+   
+}
+
+.piedepagina {
+color: white;
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+        width: 97%;
+        margin: 1rem;
+        padding: 0.5 rem;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(43,48,53);
+  border-radius: 3rem;
+
+}
+
+/* EMPRESA HTML CSS */
+
+.empresa--titulo {
+
+    text-align: center;
+    justify-content: center;
+}
+
+.empresa--contenido{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    padding: 2 rem;
+    gap: 2rem;
+}
+
+.dueños {
+    align-items: center;
+    text-align: center;
+    justify-content: center;    
+     border-radius: 3rem;
+     background-color:rgb(43,48,53); 
+     padding: 1rem;
+    
+    
+}
+
+#carrusel--gabriela{
+
+    color: black;
+}
+
+#carrusel--pedro{
+
+    color: black;
+}
+
+.historia{
+    text-align: center;
+    justify-content: center; 
+    background-color:rgb(43,48,53); 
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
+/* FIN EMPRESA HTML-CSS */
+
+
+/* CONTACTO HTML */
+
+
+
+
+
+
+.contacto--cuerpo{
+    margin: 2rem;
+    padding: 0.5 rem;
+   
+    border-style: double;
+
+      border-radius: 3rem;
+      text-align: center;
+      justify-content: center; 
+    }
+
+
+
+    .contacto--redes--titulo{
+
+        text-align: center;
+        justify-content: center; 
+        background-color:rgb(43,48,53); 
+    }
+
+
+    /* prueba */
+
+    .contacto--cuerpo {
+        margin: 2rem;
+        padding: 1 rem;
+        text-align: center;
+        justify-content: center; 
+       
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        grid-template-rows: 1fr 1fr; 
+        gap: 2px 2px; 
+        grid-template-areas: 
+          " telefono formulario"
+          "direccion mapa"
+          ; 
+      }
+      
+      .contacto--telefono { 
+        text-align: center;
+        justify-content: center; 
+        border-radius: 3rem;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: rgb(43,48,53);
+        grid-area: telefono; }
+
+      .contacto--mapa { 
+        text-align: center;
+        justify-content: center; 
+        border-radius: 3rem; 
+/* me gustaria redondear el borde del mapa pero no encuentro la forma de hacerlo */
+
+        margin: 2rem;
+        padding: 1rem;
+        background-color: rgb(43,48,53);
+        grid-area: mapa; }
+
+      .contacto--formulario { 
+        text-align: center;
+        justify-content: center; 
+        border-radius: 3rem; 
+        margin: 2rem;
+        padding: 1rem;
+       
+           background-color: rgb(43,48,53);
+        grid-area: formulario;
+        font-size: 1rem; 
+   }
+
+      .contacto--direccion {  
+        border-radius: 3rem;
+        margin: 2rem;
+        padding: 1rem;
+        background-color: rgb(43,48,53);
+         grid-area: direccion; }
+
+
