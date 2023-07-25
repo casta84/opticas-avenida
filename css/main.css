@@ -50,6 +50,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 border-style: double;
 background-color: rgb(43,48,53);
   border-radius: 3rem;
+  width: 95vw;
 }
 
 .footer1{
@@ -157,11 +158,6 @@ color: white;
 
 /* CONTACTO HTML */
 
-
-
-
-
-
 .contacto--cuerpo{
     margin: 2rem;
     padding: 0.5 rem;
@@ -240,4 +236,76 @@ color: white;
         background-color: rgb(43,48,53);
          grid-area: direccion; }
 
+/* FIN CONTACTO HTML CSS*/
 
+
+/* RESPONSIVE  */
+
+@media screen and (max-width: 1500px) {
+    
+    /* RESPONSIVE MAIN  */
+    .footerlinea1{
+        margin: 2rem;
+        padding: 0.5 rem;
+            display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        border-style: double;
+        background-color: rgb(43,48,53);
+          border-radius: 3rem;
+          width: 90vw;
+          text-align: center;
+          justify-content: center; 
+        }
+
+        .logofooter{
+            display: none;
+        }
+
+        #imagenhome {
+            width: 75vw;
+            height: 50vh;
+        }
+
+        .piedepagina{
+
+            width: 95vw;
+        }
+/* RESPONSIVE EMPRESA  */
+.empresa--contenido{
+display: grid;
+grid-template-columns: 1fr;
+}
+
+}
+
+@media screen and (max-width: 550px) {
+    /* RESPONSIVE MAIN  */
+    .footerlinea1{
+        margin: 2rem;
+        padding: 0.5 rem;
+            display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr;
+        border-style: double;
+        background-color: rgb(43,48,53);
+          border-radius: 3rem;
+          width: 85vw;
+          
+        }
+
+        .logofooter{
+            display: none;
+        }
+
+        .piedepagina {
+            display: block;
+            text-align: center;
+            justify-content: center; 
+            width: 90vw;
+            overflow: hidden;
+        }
+
+        /* RESPONSIVE EMPRESA  */
+
+}
