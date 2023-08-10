@@ -1,0 +1,68 @@
+.footerlinea1{
+    margin: 2rem;
+    padding: 0.5 rem;
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-style: double;
+    background-color: rgb(43,48,53);
+      border-radius: 3rem;
+      width: 95vw;
+
+      .footer1{
+        align-content:space-between;
+        justify-content:space-evenly ;
+        margin: 2rem;
+    padding: 0.5 rem;
+
+    #footer1-redes{
+
+    align-content:space-between;
+    justify-content:space-evenly ;
+   
+}
+
+.linkredes{
+    margin: 2rem;
+    padding: 0.5 rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.logoredes{
+    height: 7vh;
+    width: 7vh;
+}
+
+.logocontacto {
+        height: 4vh;
+        width: 4vh;
+}
+
+    .logofooter {
+        height: 15vh;
+        width: 40vh;
+    }
+    
+    
+    }
+    }
+
+    .piedepagina {
+color: white;
+        display: flex;
+        list-style-type: none;
+        text-decoration: none;
+        width: 97%;
+        margin: 1rem;
+        padding: 0.5 rem;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(43,48,53);
+  border-radius: 3rem;
+
+}
+
+.piedepagina:hover {
+color:grey
+}

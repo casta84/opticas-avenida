@@ -1,0 +1,27 @@
+.servicios--titulo {
+    text-align: center;
+    margin: 2rem;
+}
+
+.servicios--cuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+  
+.servicios--grilla{
+    text-align: center;
+    justify-content: center; 
+    background-color:rgb(43,48,53) ;
+    border-radius: 3rem;
+    padding: 1rem;
+    margin: 1rem;
+
+    :hover{
+  
+        color:rgb(214, 214, 214)
+        
+}
+}
+}

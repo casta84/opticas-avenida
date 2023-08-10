@@ -1,0 +1,84 @@
+.contacto--cuerpo{
+    margin: 2rem;
+    padding: 1rem;
+    border-style: double;
+      border-radius: 3rem;
+      text-align: center;
+      justify-content: center; 
+      display: grid; 
+      grid-template-columns: 1fr 1fr; 
+      grid-template-rows: 1fr 1fr; 
+      gap: 2px 2px; 
+      grid-template-areas: 
+        " telefono formulario"
+        "direccion mapa"
+        ; 
+
+        .contacto--telefono { 
+            text-align: center;
+            justify-content: center; 
+            border-radius: 3rem;
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgb(43,48,53);
+            grid-area: telefono; }
+    
+          .contacto--mapa { 
+            text-align: center;
+            justify-content: center; 
+            border-radius: 3rem; 
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgb(43,48,53);
+            grid-area: mapa; }
+    
+          .contacto--formulario { 
+            text-align: center;
+            justify-content: center; 
+            border-radius: 3rem; 
+            margin: 2rem;
+            padding: 1rem;
+           
+               background-color: rgb(43,48,53);
+            grid-area: formulario;
+            font-size: 1rem; 
+            
+            .casillero-form {
+                width: 75%;
+                color:black;
+             }
+             .casillero-boton{
+                color:black;
+             }
+       }
+    
+          .contacto--direccion {  
+            border-radius: 3rem;
+            margin: 2rem;
+            padding: 1rem;
+            background-color: rgb(43,48,53);
+             grid-area: direccion;
+            
+             .contacto--div{
+                margin: 2rem;
+            }
+        }
+    }
+
+    .logoredes {
+        height: 7vh;
+        width: 7vh;
+      }
+
+      .contacto--redes--titulo{
+
+        text-align: center;
+        justify-content: center; 
+        background-color:rgb(43,48,53); 
+    }
+
+
+    .contacto--titulo {
+        text-align: center;
+        margin: 2rem;
+    }

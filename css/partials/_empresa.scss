@@ -1,0 +1,38 @@
+.empresa--titulo {
+
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.empresa--contenido{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+
+    .dueños {
+    align-items: center;
+    text-align: center;
+    justify-content: center;    
+     border-radius: 3rem;
+     background-color:rgb(43,48,53); 
+     padding: 1rem;
+    .texto--carrusel--dueños{
+    background-color: black;
+    color: white;
+display: inline;
+} 
+}
+
+.historia{
+    text-align: center;
+    justify-content: center; 
+    background-color:rgb(43,48,53); 
+    border-radius: 3rem;
+    padding: 1rem;
+}
+}
