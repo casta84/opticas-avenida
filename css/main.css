@@ -352,6 +352,57 @@ display: grid;
 grid-template-columns: 1fr;
 }
 
+/* RESPONSIVE PRODUCTOS  */
+
+.productos {
+    display: block;
+   
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+
+}
+
+.productos--foto{
+    border-radius: 3rem;
+    width: 50vw ;
+    height: 50vh;
+    margin: 1rem;
+    padding: 2rem;
+    gap: 0.5rem;
+    background-color:rgb(43,48,53) ;
+}
+
+/* RESPONSIVE SERVICIOS */
+
+.servicios--cuerpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+
+  
+
+}
+
+/* RESPONSIVE CONTACTO  */
+.contacto--cuerpo {
+    margin: 2rem;
+    padding: 1 rem;
+    text-align: center;
+    justify-content: center; 
+   
+    display: inline; 
+    width: 90vw;
+     
+
+  }
+
+
 }
 
 @media screen and (max-width: 550px) {
@@ -381,6 +432,16 @@ grid-template-columns: 1fr;
             overflow: hidden;
         }
 
-        /* RESPONSIVE EMPRESA  */
+        /* RESPONSIVE SERVICIOS  */
+        .servicios--cuerpo{
+            display: grid;
+            grid-template-columns: 1fr   ;
+            margin: 2rem;
+            padding: 2rem;
+            gap: 2rem;
+        
+          
+        
+        }
 
 }
