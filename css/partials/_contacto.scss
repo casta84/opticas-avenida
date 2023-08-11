@@ -20,7 +20,7 @@
             border-radius: 3rem;
             margin: 2rem;
             padding: 1rem;
-            background-color: rgb(43,48,53);
+            background-color:$secondarybackground;
             grid-area: telefono; }
     
           .contacto--mapa { 
@@ -29,7 +29,7 @@
             border-radius: 3rem; 
             margin: 2rem;
             padding: 1rem;
-            background-color: rgb(43,48,53);
+            background-color: $secondarybackground;
             grid-area: mapa; }
     
           .contacto--formulario { 
@@ -39,7 +39,7 @@
             margin: 2rem;
             padding: 1rem;
            
-               background-color: rgb(43,48,53);
+               background-color: $secondarybackground;
             grid-area: formulario;
             font-size: 1rem; 
             
@@ -56,7 +56,7 @@
             border-radius: 3rem;
             margin: 2rem;
             padding: 1rem;
-            background-color: rgb(43,48,53);
+            background-color: $secondarybackground;
              grid-area: direccion;
             
              .contacto--div{
@@ -74,11 +74,12 @@
 
         text-align: center;
         justify-content: center; 
-        background-color:rgb(43,48,53); 
+        background-color:$secondarybackground; 
     }
 
 
     .contacto--titulo {
-        text-align: center;
-        margin: 2rem;
+
+        @extend .empresa--titulo
+        
     }

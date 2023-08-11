@@ -4,7 +4,7 @@
         display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-style: double;
-    background-color: rgb(43,48,53);
+    background-color: $secondarybackground;
       border-radius: 3rem;
       width: 95vw;
 
@@ -49,7 +49,7 @@
     }
 
     .piedepagina {
-color: white;
+color: $mainfontcolor;
         display: flex;
         list-style-type: none;
         text-decoration: none;
@@ -58,11 +58,11 @@ color: white;
         padding: 0.5 rem;
         align-items: center;
         justify-content: center;
-        background-color: rgb(43,48,53);
+        background-color: $secondarybackground;
   border-radius: 3rem;
 
 }
 
 .piedepagina:hover {
-color:grey
+color:$hovercolor;
 }

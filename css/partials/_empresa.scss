@@ -19,7 +19,7 @@
     text-align: center;
     justify-content: center;    
      border-radius: 3rem;
-     background-color:rgb(43,48,53); 
+     background-color:$secondarybackground; 
      padding: 1rem;
     .texto--carrusel--dueños{
     background-color: black;
@@ -31,7 +31,7 @@ display: inline;
 .historia{
     text-align: center;
     justify-content: center; 
-    background-color:rgb(43,48,53); 
+    background-color:$secondarybackground; 
     border-radius: 3rem;
     padding: 1rem;
 }

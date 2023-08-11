@@ -17,7 +17,37 @@
   justify-content: center;
   width: 100%;
 }
-
+#barra-navegacion .nav-item {
+  animation: roll-in-left 0.6s ease-out both;
+}
+#barra-navegacion .nav-item1 {
+  animation-delay: 0.25s;
+}
+#barra-navegacion .nav-item2 {
+  animation-delay: 0.5s;
+}
+#barra-navegacion .nav-item3 {
+  animation-delay: 0.75s;
+}
+#barra-navegacion .nav-item4 {
+  animation-delay: 1s;
+}
+#barra-navegacion .nav-item5 {
+  animation-delay: 1.25s;
+}
+#barra-navegacion .nav-item6 {
+  animation-delay: 1.5s;
+}
+@keyframes roll-in-left {
+  0% {
+    transform: translateX(-800px) rotate(-540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
 .fondo--body {
   background-color: #1a1d20;
 }
@@ -91,7 +121,7 @@
   color: grey;
 }
 
-.empresa--titulo {
+.empresa--titulo, .servicios--titulo, .productos--titulo, .contacto--titulo {
   text-align: center;
   justify-content: center;
   margin: 2rem;
@@ -195,16 +225,6 @@
   background-color: rgb(43, 48, 53);
 }
 
-.contacto--titulo {
-  text-align: center;
-  margin: 2rem;
-}
-
-.productos--titulo {
-  text-align: center;
-  margin: 2rem;
-}
-
 .productos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -220,11 +240,6 @@
   padding: 2rem;
   gap: 0.5rem;
   background-color: rgb(43, 48, 53);
-}
-
-.servicios--titulo {
-  text-align: center;
-  margin: 2rem;
 }
 
 .servicios--cuerpo {
@@ -243,7 +258,7 @@
   margin: 1rem;
 }
 .servicios--cuerpo .servicios--grilla :hover {
-  color: rgb(214, 214, 214);
+  color: grey;
 }
 
 @media screen and (max-width: 1500px) {

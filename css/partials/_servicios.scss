@@ -1,6 +1,6 @@
 .servicios--titulo {
-    text-align: center;
-    margin: 2rem;
+   @extend .empresa--titulo
+        
 }
 
 .servicios--cuerpo{
@@ -13,14 +13,14 @@
 .servicios--grilla{
     text-align: center;
     justify-content: center; 
-    background-color:rgb(43,48,53) ;
+    background-color:$secondarybackground ;
     border-radius: 3rem;
     padding: 1rem;
     margin: 1rem;
 
     :hover{
   
-        color:rgb(214, 214, 214)
+        color:$hovercolor;
         
 }
 }
