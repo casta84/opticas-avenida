@@ -10,6 +10,7 @@
     padding: 2rem;
     gap: 2rem;
   
+  
 .servicios--grilla{
     text-align: center;
     justify-content: center; 
@@ -17,10 +18,14 @@
     border-radius: 3rem;
     padding: 1rem;
     margin: 1rem;
+  
+   
 
     :hover{
   
         color:$hovercolor;
+     
+
         
 }
 }

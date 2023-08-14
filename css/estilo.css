@@ -17,25 +17,32 @@
   justify-content: center;
   width: 100%;
 }
-#barra-navegacion .nav-item {
+
+.nav-item {
   animation: roll-in-left 0.6s ease-out both;
 }
-#barra-navegacion .nav-item1 {
+
+.nav-item1 {
   animation-delay: 0.25s;
 }
-#barra-navegacion .nav-item2 {
+
+.nav-item2 {
   animation-delay: 0.5s;
 }
-#barra-navegacion .nav-item3 {
+
+.nav-item3 {
   animation-delay: 0.75s;
 }
-#barra-navegacion .nav-item4 {
+
+.nav-item4 {
   animation-delay: 1s;
 }
-#barra-navegacion .nav-item5 {
+
+.nav-item5 {
   animation-delay: 1.25s;
 }
-#barra-navegacion .nav-item6 {
+
+.nav-item6 {
   animation-delay: 1.5s;
 }
 @keyframes roll-in-left {
@@ -62,6 +69,10 @@
   margin-bottom: 2rem;
   padding: 2rem;
   background-color: rgb(43, 48, 53);
+  transition: 1s;
+}
+.fondo--body :hover {
+  transform: rotate(360deg);
 }
 
 .footerlinea1 {
@@ -240,6 +251,10 @@
   padding: 2rem;
   gap: 0.5rem;
   background-color: rgb(43, 48, 53);
+  transition: 0.5s;
+}
+.productos :hover {
+  transform: rotate(2deg);
 }
 
 .servicios--cuerpo {

@@ -12,8 +12,10 @@
         margin-bottom: 2rem;
         padding: 2rem;
         background-color: $secondarybackground;
-        
+        transition: 1s;
     }
-   
+   :hover{
+    transform: rotate(360deg)
+   }
   }
 
