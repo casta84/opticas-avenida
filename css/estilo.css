@@ -236,6 +236,11 @@
   background-color: rgb(43, 48, 53);
 }
 
+.logocontacto {
+  height: 7vh;
+  width: 7vh;
+}
+
 .productos {
   display: grid;
   grid-template-columns: 1fr 1fr;
