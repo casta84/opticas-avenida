@@ -14,8 +14,13 @@
         background-color: $secondarybackground;
         transition: 1s;
     }
-   :hover{
-    transform: rotate(360deg)
-   }
+
+
   }
 
+  #imagenhome:hover{
+
+ 
+        transform: rotate(10deg)
+       
+  }
